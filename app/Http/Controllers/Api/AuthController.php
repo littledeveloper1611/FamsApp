@@ -18,7 +18,8 @@ class AuthController extends Controller
     		'username' => 'required',
     		'password' => 'required'
     	]);
-
-
+    	return response()->json([
+    	    'message'=>'hello'
+        ],200);
     }
 }
